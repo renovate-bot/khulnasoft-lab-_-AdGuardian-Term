@@ -18,9 +18,9 @@ base64 = "0.13"
 # Date + time parsing + manipulating
 chrono = "0.4"
 # Handling of terminal colors
-colored = "2.1"
+colored = "2.0"
 # Term manipulation for kb + mouse events
-crossterm = { version = "0.27.0", features = ["serde"] }
+crossterm = { version = "0.22.0", features = ["serde"] }
 # Extension of futures for async computation
 futures = "0.3"
 # HTTP client
@@ -34,4 +34,4 @@ semver = "1.0"
 # Date + time manipulation
 tokio = { version = "1", features = ["full"] }
 # Terminal UI library
-tui = { package = "ratatui", version = "0.26.2" }
+tui = { package = "ratatui", version = "0.20.1" }
