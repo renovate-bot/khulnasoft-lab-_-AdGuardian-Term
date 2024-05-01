@@ -14,7 +14,7 @@ on:
 
 env:
   IMAGE_NAME: adguardian
-  DOCKER_USER: lissy93
+  DOCKER_USER: khulnasoft
   GHCR_REGISTRY: ghcr.io
   DOCKERHUB_REGISTRY: docker.io
 
@@ -59,7 +59,7 @@ jobs:
         with:
           registry: ${{ env.DOCKERHUB_REGISTRY }}
           username: ${{ env.DOCKER_USER }}
-          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          password: ${{ secrets.DOCKER_TOKEN }}
 
       - name: Build and push Docker images
         uses: docker/build-push-action@v2
