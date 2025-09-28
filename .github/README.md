@@ -285,13 +285,6 @@ Below is an outline + current status of each workflow.
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/NxPKG">
-            <img src="https://avatars.githubusercontent.com/u/116948796?v=4" width="80;" alt="NxPKG"/>
-            <br />
-            <sub><b>Null</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/tromcho">
             <img src="https://avatars.githubusercontent.com/u/113139586?v=4" width="80;" alt="tromcho"/>
             <br />
